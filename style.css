@@ -422,7 +422,7 @@ cards
     }
     .menu-btn.active{
         z-index: 999;
-        background: url(img/—Pngtree—vector\ cancel\ icon_4190816.png);
+        background: url(img/cancel.png);
         background-size: 25px;
         background-position:center ;
         transition: 00.3s ease;
