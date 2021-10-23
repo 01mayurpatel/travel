@@ -60,7 +60,7 @@ padding-bottom: 5px;
 header  .navigation-items a:hover{
     color: blue;
 }
- header .navigation .navigation-items a::before{
+ header .navigations .navigation-items a::before{
     content: '';
     position: absolute;
     background: blue;
@@ -71,7 +71,7 @@ header  .navigation-items a:hover{
     transition: 0.3s ease;
     width: 0;
  }
-header .navigation .navigation-items a:hover::before{
+header .navigations .navigation-items a:hover::before{
 width: 100%;
 }
 
@@ -560,10 +560,10 @@ footer i{
         top: 380px;
     }
     
-    .navigation{
+    .navigations{
      
        display: none;}
-    .navigation.active{
+    .navigations.active{
         z-index: 1000;
         position: fixed;
         width: 100%;
@@ -582,7 +582,7 @@ footer i{
         font-size: 1.2em;
         margin: 2px;
     }
-    header .navigation.active .navigation-items{
+    header .navigations.active .navigation-items{
         background: white;
         width: 80%;
         max-width: 600px;
