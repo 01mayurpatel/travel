@@ -91,7 +91,7 @@ window.addEventListener("scroll", function () {
 
 // nav-bar
 const menuBtn = document.querySelector(".menu-btn");
-const navigation = document.querySelector(".navigation");
+const navigation = document.querySelector(".navigations");
 menuBtn.addEventListener("click" , () =>{
 	menuBtn.classList.toggle("active");
 	navigation.classList.toggle("active");
