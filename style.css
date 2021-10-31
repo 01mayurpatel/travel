@@ -1,0 +1,429 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+html ,body{
+    scroll-behavior: smooth;
+    width: 100vw;
+  
+    overflow-x: hidden;
+ 
+}
+:root{
+    --primary-color:#f4f9ff;
+    --secondary-color:#ff7c5a;
+    --text-main:'Playfair Display', serif;
+}
+.main-h1{
+    font-family: var(--text-main);
+    font-size: 41px;
+    letter-spacing: 1px;
+    color:#061b3a ;
+    line-height: 60px;
+}
+.main-h6{
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(136, 135, 132);
+}
+.main-para{
+color: rgb(87, 87, 87);
+}
+.main-button{
+    border: none;
+    background-color:var(--secondary-color) ;
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 5px rgba(236, 91, 55, 0.116);
+    margin-top: 10px;
+   
+}
+.carrr{
+    max-height: 700px;
+    overflow: hidden;
+}
+/* top-box */
+.nav-brand{
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: black;
+}
+.nav-brand span{
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.nav-brand:hover{
+    text-decoration: none;
+    color: black;
+}
+.nav-box{
+    padding: 10px;
+}
+.nav-box ul li {
+    margin-left: 8px;
+    font-size: 19px;
+    color: var(--secondary-color);
+}
+  .nav-container{
+     
+      position: absolute;
+      z-index: 100;
+  }
+  .top-up{
+    position: relative;
+  }
+ .top-part{
+ 
+   background-size: 100% 100%;
+  
+    
+    
+    
+}
+ 
+
+
+/* middle part*/
+#middle{
+    background-color: rgba(128, 128, 128, 0.055);
+}
+
+
+.middle-grid{
+   width: 100%;
+   box-shadow: 0px 0px 15px 5px rgba(156, 156, 156, 0.178);
+   border-radius: 10px;
+   background-color: white;
+   cursor: pointer;
+}
+.mid-top {
+    height:155px;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.mid-top img{
+    height: 100%;
+    width: 100%;
+   filter: brightness(105%);
+   cursor: pointer;
+  
+}
+.middle-grid:hover .mid-top img{
+    transform: scale(1.1);
+    transition: 0.1s ease-out;
+    opacity: 0.8;
+  
+}
+.mid-middle{
+    width: auto;
+    
+  position: relative;
+  
+     
+    
+}
+.mid-middle i{
+    position: absolute;
+    left:39.5% ;
+    bottom: -30px;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 5px rgba(156, 156, 156, 0.603);
+    color: red;
+    padding: 20px;
+    border-radius: 50%;
+}
+.mid-bottom{
+    padding: 55px 20px 35px 20px;
+    text-align: center;
+   
+    
+}
+.mid-bottom h6{
+    font-weight: 700;
+   font-size: 20px;
+}
+/* 
+/
+/
+/
+/about
+/
+/
+/ */
+
+.about-pic{
+    
+     background-image: url(img/Web\ 1920\ –\ 1.png);
+     background-repeat: no-repeat; 
+     background-size: cover;
+     padding-right: 0px;
+}
+.about-pic-box{
+    width: 75%;
+    height: 100%;
+     margin-left: 25%;
+     height: 80%;
+     margin-top: 80px;
+     border: 5px solid white;
+     overflow: hidden;
+     box-shadow: 0px 5px 15px 5px rgba(156, 156, 156, 0.329);
+}
+.about-pic-box img{
+    width: 100%;
+    height: 100%;
+   
+
+}
+.about-content{
+    margin-top: 80px;
+   
+   
+}
+
+
+/*
+/
+/
+/
+/
+/  */
+#content{
+    background-color: rgba(128, 128, 128, 0.061);
+}
+.box-section{
+   
+ 
+    overflow: hidden;
+}
+
+.respo{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.img-responsive{
+    width: 100%;
+   
+    
+}
+.box-content{
+   
+    border-radius:10px ;
+    background-color: white;
+  
+}
+.box-content h3{
+    border-bottom: dashed 2px rgba(0, 0, 0, 0.37);
+}
+.box-content a:hover{
+    text-decoration: none;
+}
+.box-content h3 , span{
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+.box-content strong{
+    letter-spacing: 0.5px;
+}
+.box-content:hover .img-responsive{
+  transform: scale(1.05,1.05);
+  transition: 0.2s ease-in-out;
+}
+/* 
+/
+/
+/
+/newzealand */
+.newzealand{
+    
+    height: 600px;
+    width: 100%;
+    background: url(img/WhatsApp\ Image\ 2021-10-31\ at\ 17.19.57\ \(7\).jpeg);
+    background-size: cover;
+}
+.newzealand-card h6{
+    color: var(--secondary-color);
+}
+.newzealand-card{
+    width: 90%;
+    margin-left: 5%;
+    margin-right:5% ;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.959);
+    border-radius: 10px;
+}
+/* 
+/
+/
+/
+/
+popular destinations
+/
+/
+/ */
+
+.popular-pic{
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    border: 5px solid white;
+    
+    box-shadow: 0px 5px 15px 5px rgba(156, 156, 156, 0.329);
+
+}
+.popular-pic h4{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.popular-pic:hover img{
+    transform: scale(1.05);
+    transition:0.4s ease-in-out;
+    filter: brightness(100%);
+    cursor: pointer;
+}
+.popular-pic img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(80%);
+    
+}
+.pop-last{
+    padding-top: 70px;
+}
+/* 
+/
+/
+/
+/
+number box 
+/
+/*/
+.numbers{
+    
+    background-color: white;
+}
+.number-main-box{
+    position: relative;
+}
+.number-star{
+    position: absolute;
+    z-index: 100;
+    left:41%;
+    top: -25px;
+
+}
+.number-box{
+   
+    background-color: white;
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 0px 5px 15px 5px rgba(156, 156, 156, 0.794);
+
+}
+.number-box h3{
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: var(--text-main);
+}
+.number-inside{
+   
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-radius: 100%;
+    background: url(img/IMG_20211030_215435.jpg)no-repeat;
+background-size: cover;
+background-position: center;
+}
+/* 
+/
+/
+/footer
+/
+/ */
+footer .container{
+    padding:40px 10px 40px 10px;
+}
+.foot-part1 , .foot-part2 , .foot-part3{
+    padding-left: 20px;
+    border-left: 1px solid gray;
+}
+.foot-part1 h4{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.foot-part1 h4:hover{
+    color: var(--secondary-color);
+}
+.foot-part1 h6:hover{
+    color: var(--secondary-color);
+}
+.foot-part2 h6:hover{
+    color: var(--secondary-color);
+}
+
+.foot-part1 h6{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.foot-part2 h5{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.foot-part2 h6{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.foot-part3 h5{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.foot-part3 h6{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+footer i{
+    cursor: pointer;
+}
+
+
+/* 
+/
+/
+ */
+ @media (max-width:770px) {
+    .number-star{
+        left: 25%;
+    }
+    .number-box{
+        box-shadow: none;
+    }
+    .about-pic-box{
+        width: 80%;
+        height: 100%;
+         margin-left: 10%;
+         margin-right: 10%;
+         height: 80%;
+         margin-top: 80px;
+         border: 5px solid white;
+         overflow: hidden;
+         box-shadow: 0px 5px 15px 5px rgba(156, 156, 156, 0.329);
+    }
+    .about-pic{
+        background-image: none;
+    }
+ }
